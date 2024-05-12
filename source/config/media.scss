@@ -1,0 +1,31 @@
+@media screen and (max-width: 1023px) {
+    .containe{
+        padding: 15px;
+    }
+    .container {
+        max-width: 80%;
+        padding: 15px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .containe{
+        padding: 10px;
+    }
+    .container {
+        max-width: 80%;
+        padding: 10px;
+    }
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
